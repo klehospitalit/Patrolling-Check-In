@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "security-attendance-app",
-    "slug": "security-attendance-app",
+    "name": "Patrolling Check-In",
+    "slug": "patrolling-check-in",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
@@ -10,7 +10,7 @@
     "newArchEnabled": true,
     "ios": {
       "supportsTablet": true,
-      "bundleIdentifier": "com.vishalbashetti.securityattendanceapp"
+      "bundleIdentifier": "com.klesecurity.patrolsync"
     },
     "android": {
       "adaptiveIcon": {
@@ -18,7 +18,7 @@
         "backgroundColor": "#ffffff"
       },
       "edgeToEdgeEnabled": true,
-      "package": "com.vishalbashetti.securityattendanceapp"
+      "package": "com.klesecurity.patrolsync"
     },
     "web": {
       "bundler": "metro",
@@ -51,8 +51,9 @@
     "extra": {
       "router": {},
       "eas": {
-        "projectId": "88fafa62-5a39-4708-94e7-564bf1524295"
+        "projectId": "5478c42c-c6b2-4a7d-8efd-e29c42b05f46"
       }
-    }
+    },
+    "owner": "kleitpatrolling"
   }
 }
